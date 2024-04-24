@@ -9,7 +9,7 @@ else
 fi
 
 apt update -y
-apt install build-essential jq -y
+apt install build-essential libc6 jq -y
 
 # Check if Go is installed
 if ! command -v go &> /dev/null
